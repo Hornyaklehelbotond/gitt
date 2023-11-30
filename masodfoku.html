@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="masodfoku.js"></script>
+    <link rel="stylesheet" href="masodfoku.css">
+</head>
+<body>
+    <form>
+        <fieldset id="top">
+            <legend>Másodfokú egyenlet megoldása</legend>
+            <h3>ax<sup>2</sup>+bx+c=0</h3>
+            <ul>
+                <li>Az egyenlet megoldásakor megkapjuk a függvény zérushelyeit.</li>
+                <li>A zérus helyek száma a D (diszkrimináns) értékétől függ:</li>
+                <li>D=b<sup>2</sup>-4ac</li>
+            </ul><br>
+            <img src="fuggveny.png" id="fuggveny"><br>
+            <p>Ha a D<0, nincs zérushely (a függvény az x tengelyt nem érinti).</p>
+            <p>Ha a D=0, egy zérushely (a függvény az x tengelyt érinti).</p>
+            <p>Ha a D>0, két zérushely lesz (a függvény az x tengelyt metszi).</p>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset id="down">
+            <legend>Add meg az egyenlet paramétereit!</legend>
+            <img src="megoldokeplet.png" id="megoldo"><br>
+
+            a= <input type="text" id="a" size="3"><br>
+            b= <input type="text" id="b" size="3"><br>
+            c= <input type="text" id="c" size="3"><br>
+
+            <input type="button" value="Számol" id="szamolas" onclick="szamol()">
+            <input type="submit" value="Törlés" id="torles">
+
+            <h2>
+                D= <span id="D"></span><br>
+                X1= <span id="X1"></span><br>
+                X2= <span id="X2"></span>
+            </h2>
+        </fieldset>
+    </form>
+</body>
+</html>

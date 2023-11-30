@@ -1,0 +1,31 @@
+body{
+    width: 500px;
+    background-color: #c5fad5;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2,h3{
+    color: #ffffd2;
+    text-shadow: 1px 1px 1px #888282;
+}
+legend{
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #ffffd2;
+}
+fieldset{
+    width: 500px;
+    background-color: #aa96da;
+    box-shadow: 5px 5px 5px #888282;
+}
+img{
+    float: right;
+}
+#fuggveny{
+    width: 200px;
+    height: 200px;
+}
+#megoldo{
+    width: 274.5px;
+    height: 69px;
+}
